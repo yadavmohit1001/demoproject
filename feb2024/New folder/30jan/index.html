@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_dabba {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+        margin: auto;
+        justify-content: center;
+        width: 100%;
+
+
+         
+           
+        }
+
+        .item {
+            height: 110px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: teal;
+            
+            border-radius: 10px;
+            box-shadow: box-shadow;rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            ;
+        }
+
+        @media screen and (min-width:200px) and (max-width:760px) {
+            .main_dabba {
+                display: grid;
+                gap: 20px;
+
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+
+            .item {
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: teal;
+                /* border: 1px solid red; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_dabba">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+    </div>
+</body>
+
+</html>

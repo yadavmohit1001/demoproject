@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container {
+            /* border: 2px solid; */
+            height: auto;
+            width: 100%;
+            /* background-color: black; */
+            margin: 10px;
+
+        }
+
+        .navbar_container nav {
+            /* border: 1px solid teal; */
+            height: 50px;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            align-items: center;
+            background-color: black;
+
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: burlywood;
+            margin-left:20px;
+        }
+
+        .product_container {
+            /* border: 1px solid green; */
+            height: auto;
+            width: auto;
+            display: flex;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            justify-content: space-evenly;
+            /* color: white; */
+            margin: 10px;
+            /* border-radius: 25px; */
+            
+
+        }
+        button:hover{
+            cursor: pointer;
+            width: 80px;
+            height: 30px;
+        }
+
+        .product_container div img {
+            width: 250px;
+            height: 280px;
+            border-radius: 25px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .similar_product {
+            /* border: 1px solid teal; */
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            
+            text-align: center;
+            margin: 30px;
+            
+
+        }
+
+        .similar_product img {
+            width: 250px;
+            height: 300px;
+            border-radius: 25px;
+        }
+        .similar_product button { margin-top: 30px;
+
+        }
+
+        
+
+        .contact_us {
+            display: flex;
+            margin: 10px;
+            justify-content: space-between;
+            background-color: black;
+
+        }
+
+        .contact_us div {
+            color: teal;
+            
+            margin-bottom: 10px;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        h3{
+            text-align: center;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="navbar_container">
+            <nav>
+                <a href="home">Home</a>
+                <a href="About">About</a>
+                <a href="gallery">Gallery</a>
+                <a href="Service">Service</a>
+                <a href="dashboard">dashboard</a>
+            </nav>
+        </div>
+        <div class="product_container">
+            <div><img src="./coffee.jfif" alt="coffee">
+                <p>Coffee</p>
+                <h3>Rs 35</h3>
+                <button>Buy Now</button>
+            </div>
+            <div><img src="./raw coffee.jfif" alt="">
+                <p>Coffee</p>
+                <h3>Rs 35</h3>
+                <button>Buy Now</button>
+            </div>
+            <div><img src="./lemon tea.jfif" alt="">
+                <p>Lemon Tea</p>
+                <h3>Rs 35</h3>
+                <button>Buy Now</button>
+            </div>
+            <div><img src="./thali 1.jfif" alt="">
+                <p>Thali</p>
+                <h3>Rs 35</h3>
+                <button>Buy Now</button>
+            </div>
+            <div><img src="./thali.jfif" alt="">
+                <p>Thali</p>
+                <h3>Rs 35</h3>
+                <button>Buy Now</button>
+            </div>
+            <div><img src="./desi thali.jfif" alt="">
+                <p>Churma</p>
+                <h3>Rs 50</h3>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <h3>  Explore Our Other Products</h3>
+
+        <div class="similar_product">
+            <div><img src="./dal bhaati lead.webp" alt=""><br>
+                <!-- <button>Add To Cart</button> -->
+            </div>
+            <div><img src="./moong halwa.jfif" alt=""><br>
+                <!-- <button>Add To Cart</button> -->
+            </div>
+            <div><img src="./bhari thali.jfif" alt=""><br>
+                <!-- <button>Add To Cart</button> -->
+            </div>
+            <div><img src="./dudhh.jpg" alt=""><br>
+                <!-- <button>Add To Cart</button> -->
+            </div>
+            <div><img src="./dal bhaati lead.webp" alt=""><br>
+                <!-- <button>Add To Cart</button> -->
+            </div>
+        </div>
+        <div class="contact_us">
+            <div>
+                <h3>Contact Us</h3>
+                <li>Call Us:-8562810227</li>
+                <li>Fax:- 0141-222222</li>
+                <li>Email:- abc@gmail.com</li>
+            </div>
+            <div>
+                <h3>Our Branches</h3>
+                <li>Jaipur</li>
+                <li>Alwar</li>
+                <li>Shapura</li>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container {
+            border: 1px solid black;
+            height: 80%;
+            width: 30%;
+            margin: auto;
+
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .name_div {
+            display: flex;
+            gap: 50px;
+            width: 50%;
+            justify-content: space-around;
+            margin: auto;
+            margin-top: 10px;
+
+        }
+
+        .contact_div {
+            display: flex;
+            gap: 50px;
+             width: 50%;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin: auto;
+
+        }
+
+        .gender_div {
+            display: flex;
+           
+            justify-content: space-around;
+            width:100%;
+            /* margin-top: 20px; */
+            margin: 50px auto;
+            /* border: 1px solid red; */
+
+
+
+        }
+
+        .state_div {
+            text-align: center;
+            margin: auto;
+            justify-content: center;
+
+
+            width: 50%;
+            margin-left: 30px;
+        }
+
+        .button_div {
+            margin: auto;
+           text-align: center;
+            /* justify-content: center; */
+        }
+    button:hover{
+        cursor: pointer;
+        width: 80px;
+        height: auto;
+    }
+    @media screen and{
+        
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="main_container">
+
+        <h1>Registration Form For Police</h1>
+        <div class="name_div">
+            <label>Name <br>
+                <input type="text" placeholder="Enter Your Name">
+            </label>
+            <label>Last name <br>
+                <input type="text" placeholder=" Enter Your Last Name">
+            </label>
+        </div>
+        <div class="contact_div">
+            <label>Email <br>
+                <input type="text" placeholder="Enter Your Email">
+            </label>
+            <label> Mobile <br>
+
+                <input type="text" placeholder="Enter Your Mobile No">
+            </label>
+        </div>
+        <div class="gender_div">
+            <div> <label> Gender
+                    <select>
+                        <option value="Select">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Maritial Status
+                    <select>
+                        <option value="select">select</option>
+                        <option value="Married">Married</option>
+                        <option value="Unmarried">Unmarried</option>
+
+
+                    </select>
+
+                </label>
+            </div>
+            
+        </div>
+
+
+        <div class="state_div">
+            <label>
+                State
+                <select>
+                    <option value="select">select</option>
+
+                </select>
+            </label>
+        </div>
+        <div class="button_div">
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

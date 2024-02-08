@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container {
+            /* width: 100%; */
+            /* height: auto; */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: auto;
+            gap: 10px;
+
+
+        }
+        .main_container div{
+            text-align: center;
+        }
+
+        .item1 {
+            
+        
+
+
+            border: 1px black;
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 40px;
+            box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius: 10px;
+          
+        }
+
+        .item2 {
+            
+
+            
+
+            border: 1px black;
+            background-color: rgb(255, 0, 208);
+            grid-row-start: 2;
+            grid-row-end: 4;
+            height: 100px;
+            box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             border-radius: 10px;
+            
+            
+        }
+
+        .item3 {
+
+
+            border: 1px black;
+            background-color: rgb(4, 34, 34);
+            height: 40px;
+            box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             border-radius:10px ;
+        
+        }
+
+        .item4 {
+
+
+            border: 1px black;
+            background-color: rgb(94, 86, 131);
+            box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius:10px ;
+            
+
+        }
+
+        .item5 {
+
+            border: 1px black;
+            background-color: rgb(15, 15, 42);
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 40px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 10px;
+
+           
+        }
+
+        .item6 {
+
+
+            border: 1px black;
+            background-color: rgb(18, 54, 54);
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 40px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+             border-radius:10px ;
+                }
+
+        .item7 {
+
+
+            border: 1px black;
+            background-color: rgb(255, 55, 0);
+            height: 40px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            border-radius:10px ;
+        
+        }
+
+        .item8 {
+
+
+            border: 1px black;
+            background-color: rgb(151, 33, 39);
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 40px;
+             border-radius: 10px;
+             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        }
+        @media screen and() {
+            
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+       
+
+    </div>
+</body>
+
+</html>
